@@ -103,7 +103,7 @@ main {
     margin: auto;
     padding: 7px;
     background: var(--yellow);
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .profile-image img {
