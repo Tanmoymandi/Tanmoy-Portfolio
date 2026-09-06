@@ -144,8 +144,8 @@ document.addEventListener("DOMContentLoaded", function () {
             if (link === "#" || !link) {
                 event.preventDefault();
 
-                alert(
-                    "Video link will be added here soon."
+                onclick="playVideo(
+                    'GtEbdJodtyA'
                 );
             }
 
