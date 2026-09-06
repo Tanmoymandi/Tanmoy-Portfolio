@@ -32,39 +32,7 @@
 
 </head>
 
-<body><div class="featured-videos">
-  <div class="video-card" onclick="playVideo('VIDEO_ID_1')">
-    <div class="thumbnail">
-      <span class="play-btn">▶</span>
-    </div>
-    <h4>Documentary Video</h4>
-    <p>My Best Documentary Work</p>
-  </div>
-
-  <div class="video-card" onclick="playVideo('VIDEO_ID_2')">
-    <div class="thumbnail">
-      <span class="play-btn">▶</span>
-    </div>
-    <h4>Storytelling Video</h4>
-    <p>Bengali Storytelling</p>
-  </div>
-
-  <div class="video-card" onclick="playVideo('VIDEO_ID_3')">
-    <div class="thumbnail">
-      <span class="play-btn">▶</span>
-    </div>
-    <h4>Motivational Video</h4>
-    <p>Inspirational Content</p>
-  </div>
-</div>
-
-<!-- Video Popup Modal -->
-<div id="videoModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeVideo()">&times;</span>
-    <iframe id="videoFrame" width="100%" height="400" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  </div>
-</div>
+<body>
     <script>function playVideo(videoId) {
   var modal = document.getElementById("videoModal");
   var frame = document.getElementById("videoFrame");
