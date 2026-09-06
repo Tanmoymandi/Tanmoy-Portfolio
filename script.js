@@ -128,30 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    /* =========================================
-       4. VIDEO CARD CLICK EFFECT
-    ========================================= */
 
-    const videoCards = document.querySelectorAll(".video-card");
-
-    videoCards.forEach(function (card) {
-
-        card.addEventListener("click", function (event) {
-
-            const link = card.getAttribute("href");
-
-            /* If link is still #, don't open anything */
-            if (link === "#" || !link) {
-                event.preventDefault();
-
-                onclick="playVideo(
-                    'GtEbdJodtyA'
-                );
-            }
-
-        });
-
-    });
 
 
     /* =========================================
