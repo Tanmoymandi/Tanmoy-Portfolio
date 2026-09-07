@@ -281,9 +281,30 @@ main {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
 }
+.skill-card {
+    background: none;
+    border: none;
+    min-height: auto;
+    padding: 5px 2px;
+}
+.skill-card i {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+.skill-card:nth-child(1) i { color: #4a3aff; } /* Video Editing - purple */
+.skill-card:nth-child(2) i { color: #ff0000; } /* Content - red */
+.skill-card:nth-child(3) i { color: #5b5bd6; } /* Voice Over - blue */
+.skill-card:nth-child(4) i { color: #2b579a; } /* Word - blue */
+.skill-card:nth-child(5) i { color: #217346; } /* Excel - green */
+.skill-card:nth-child(6) i { color: #d24726; } /* PowerPoint - orange */
+.skill-card h3 {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
 
 .skill-card {
     background: none;
