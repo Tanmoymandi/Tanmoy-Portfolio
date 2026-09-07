@@ -237,7 +237,7 @@ main {
 
 .about {
     background: #ffffff;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .about p {
     font-size: 15px;
@@ -246,7 +246,7 @@ main {
   margin-bottom: 0px;
 }
 .skills.section{
-  padding-top: 10px;
+  padding-top: 5px;
 }
 /* =========================================
    TWO COLUMN AREA
