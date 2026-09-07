@@ -286,16 +286,16 @@ main {
 }
 
 .skill-card {
-    background: var(--navy);
-    color: var(--white);
-    min-height: 125px;
-    padding: 15px 8px;
+    background: none;
+    color: inherit;
+    min-height: auto;
+    padding: 10px 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-bottom: 4px solid var(--yellow);
+    border-bottom: none;
     transition: .25s;
 }
 
