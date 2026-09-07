@@ -237,11 +237,13 @@ main {
 
 .about {
     background: #ffffff;
+  padding-bottom: 5px;
 }
 .about p {
     font-size: 15px;
     line-height: 1.8;
     padding-left: 38px;
+  margin-bottom: 10px;
 }
 /* =========================================
    TWO COLUMN AREA
