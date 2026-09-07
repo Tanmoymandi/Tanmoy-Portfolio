@@ -225,7 +225,7 @@ main {
 .section-title::after {
     content: "";
     height: 2px;
-    background: var(--navy);
+    background: var(--yellow);
     flex: 1;
     margin-left: 10px;
 }
