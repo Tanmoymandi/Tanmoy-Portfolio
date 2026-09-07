@@ -237,6 +237,13 @@ main {
 
 .about {
     background: #ffffff;
+}
+.about p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+.about {
+    background: #ffffff;
     padding: 20px 15px;
     max-width: 1200px;
     margin: 0 auto;
