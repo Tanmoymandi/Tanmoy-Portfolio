@@ -236,7 +236,8 @@ main {
 ========================================= */
 
 .about {
-    background: var(--yellow);
+    background: #ffffff;
+    padding: 20px 0;
 }
 
 .about p {
